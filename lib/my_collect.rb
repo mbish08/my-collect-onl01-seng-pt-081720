@@ -3,5 +3,6 @@ def my_collect(languages)
   array << languages do |lang|
     lang.upcase
   end
+  array
 end
 
